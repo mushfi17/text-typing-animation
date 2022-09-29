@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Text Typing Animation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1>I'm <span class="auto-play"></span></h1>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      var typed = new Typed('.auto-play',{
+        strings: ['Coding', 'Eating', 'Sleeping'],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+      })
+    </script>
+  </body>
+</html>
